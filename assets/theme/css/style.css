@@ -966,3 +966,39 @@ blockquote {
 .hidden {
   display: none;
 }
+
+/* Tung additional code */
+/* Main page */
+.main-content {
+  max-width: 600px;
+}
+.main-content-wrapper {
+  display: flex;
+  justify-content: center; /* Center the .centered-div horizontally */
+  align-items: center; /* Center the .centered-div vertically */
+}
+.invitation-layout {
+  border: 2px solid #e6dfd6;
+  border-radius: 20px;
+}
+
+@media (max-width: 767px) {
+  body .cid-tMrcsbmBo6 .row:nth-child(even) {
+      flex-direction: unset;
+  }
+}
+
+/* Second page */
+.inner-wrapper {
+  display: flex;
+  justify-content: center; /* Center the .centered-div horizontally */
+  align-items: center; /* Center the .centered-div vertically */
+}
+.body-inner-second-page {
+  max-width: 800px;
+  border: 2px solid #e6dfd6;
+}
+
+.transport-map a {
+  text-decoration: underline;
+}
