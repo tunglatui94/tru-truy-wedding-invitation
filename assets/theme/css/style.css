@@ -986,6 +986,9 @@ blockquote {
   body .cid-tMrcsbmBo6 .row:nth-child(even) {
       flex-direction: unset;
   }
+  .cid-tMrcsbmBo6 .row:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
 }
 
 /* Second page */
